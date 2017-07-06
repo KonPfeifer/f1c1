@@ -301,11 +301,13 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
+  height: 560px;
 }
 
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+  margin-top: 4rem;
 }
 
 #filters-section .content h2 {
@@ -326,6 +328,11 @@ header .mobile {
   padding: 0 1%;
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
+}
+
+#filters-section img {
+  height: 50%;
 }
 
 @media only screen and (max-width: 450px) {
@@ -405,9 +412,7 @@ footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
   height: 62px;
-}
-
-  footer .content {
+  justify-content: space-between;
   color: white;
   display: flex;
   font-size: .75rem;
