@@ -61,6 +61,8 @@ header nav ul {
 nav li {
   padding-left: 3.5rem;
   display: inline;
+  min-width: 4rem;
+  max-height: 1.5rem;
 }
 
 nav a {
@@ -93,7 +95,9 @@ header .mobile {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-    display: inline;
+    display: block;
+    max-height: 1.5rem;
+    min-width: 3.5rem;
   }
 }
 
@@ -127,9 +131,7 @@ header .mobile {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
-    display: inline;
-    width: auto;
-    height: auto;
+    display: block;
   }
 }
 
