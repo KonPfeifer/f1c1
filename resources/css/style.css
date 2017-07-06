@@ -60,6 +60,7 @@ header nav ul {
 
 nav li {
   padding-left: 3.5rem;
+  display: inline;
 }
 
 nav a {
@@ -76,6 +77,24 @@ header .icon {
 
 header .mobile {
   display: none;
+}
+
+.tablet {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+  .tablet {
+    display: block;
+  }
+
+  #joinButton {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -103,11 +122,14 @@ header .mobile {
     padding: 0;
   }
 
-  header .mobile .button {
+  #joinButton {
     padding: .1875rem .5rem;
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+    display: inline;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -164,7 +186,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1024px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -304,11 +326,6 @@ header .mobile {
   padding: 0 1%;
   display: flex;
   justify-content: center;
-}
-
-#filters-section .image-container img {
-  object-fit: cover;
-  display: block;
 }
 
 @media only screen and (max-width: 450px) {
